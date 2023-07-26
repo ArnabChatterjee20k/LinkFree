@@ -33,3 +33,7 @@ export async function getUsers(options = {}) {
 
   return JSON.parse(JSON.stringify(profiles));
 }
+
+export async function searchUsers(slug){
+  
+}
